@@ -1,0 +1,3 @@
+Tim 350
+Maria 200
+Bob 100
