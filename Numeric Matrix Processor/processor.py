@@ -116,11 +116,11 @@ class Matrix:
 
     def cofactors(self, M):
         cofactors = []
-        for r in range(len(M)):
+        for i, _ in enumerate(M):
             cofactor_row = []
-            for c in range(len(M)):
-                minor = self.matrix_minor(M, r, c)
-                cofactor_row.append(((-1) ** (r + c)) * self.determinant(minor))
+            for j, _ in enumerate(M):
+                minor = self.matrix_minor(M, i, j)
+                cofactor_row.append(pow(-1, i + j) * self.determinant(minor))
             cofactors.append(cofactor_row)
         return cofactors
 
