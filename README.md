@@ -11,3 +11,4 @@
 
 ### Hard
 - [To Do List](https://github.com/a-lukianenko/JetBrainsAcademy_Python/tree/master/ToDoList) - a classic To-Do List app that stores tasks and their deadlines in SQLite. **Topics covered:** built-ins `any()`, `all()`, `filter()`, `map()`, what a Python ojbect is, identity and equality check methods `isinstance()`, `type()`, `is` vs `==`, `issubclass()`, the concept of ORM, `sqlalchemy`, `datetime` module.
+- [Password Hacker](https://github.com/a-lukianenko/JetBrainsAcademy_Python/tree/master/Password%20Hacker) - hack admin's credentials. **Topics covered:** binary & hex numbers, `bytes` objects, generators, iterators, `itertools`, `socket`, `json` modules. 
